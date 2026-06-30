@@ -16,3 +16,13 @@ Q4: A firewall and a load balancer are both part of how the web works. What does
 A firewall is a network security device that monitors and controls incoming and outgoing traffic to protect networks from unauthorized access and cyber threats.
 Whilst
 A load balancer helps distributes traffic from incoming requests across multiple servers to prevent overload and improve performance. The difference is that a firewall focuses on security, while a load balancer focuses on managing traffic and keeping services running smoothly.
+
+Q5: Explain the difference between a web server and an application server. Which one does a backend developer work with more, and why?
+A web server receives requests from the load balancer and handles them. If the request only needs static content, the web server sends the response directly. If additional functionality is needed, it forwards the request to the application server.
+
+An application server accesses and executes available codebases, processes the request, communicates with the database when needed, and sends the response back to the web server.
+
+A backend developer works more with the application server because they build and manage the application logic, APIs, and database operations that make the application function.
+Q6: Why does the client never communicate directly with the database? What are the benefits of having an application server in between?
+The client does not communicate directly with the database because it would expose the database to security risks and unauthorized access.
+The application server acts as a bridge between the client and the database. It processes requests, retrieves or updates data, and sends the correct response back to the client.
