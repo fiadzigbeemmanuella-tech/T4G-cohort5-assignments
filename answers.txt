@@ -26,3 +26,12 @@ A backend developer works more with the application server because they build an
 Q6: Why does the client never communicate directly with the database? What are the benefits of having an application server in between?
 The client does not communicate directly with the database because it would expose the database to security risks and unauthorized access.
 The application server acts as a bridge between the client and the database. It processes requests, retrieves or updates data, and sends the correct response back to the client.
+
+Q7: Is a university department page (like ug.edu.gh/statistics) more likely to be a static or dynamic website? What about your MTN MoMo account page? Explain your answers.
+A university department page like ug.edu.gh/statistics is more likely to be a static website because it mainly displays information that is the same for all visitors, such as courses, staff, and contact details.
+An MTN Momo account page is a dynamic website because it shows personalized information like your account balance and transaction history, which is generated based on your account.
+
+Q8: What is the main difference between frontend and backend development? If you were asked to build the login feature of a website, which side would handle checking your password against the database and why?
+The frontend development is the part of a website that users see and interact with, while the backend development handles the server, application logic, and database.
+
+The backend development checks the password against the database because it securely processes user data and protects important information.
