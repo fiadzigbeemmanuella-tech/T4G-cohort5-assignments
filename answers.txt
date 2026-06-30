@@ -1,0 +1,12 @@
+Q1: In your own words, explain what happens when you type a website address like google.com and press Enter.
+When I type google.com into my browser and press Enter, the first step is a Domain Name System lookup, where DNS resolves the domain name into an IP address so the browser knows where to send the request.
+
+The request is then sent to a load balancer, which distributes traffic across different web servers using algorithms such as round-robin to improve performance and prevent overload.
+
+The web server receives the request and processes it. If the request requires only static content such as images, HTML, or files, the web server responds directly. However, if additional processing is needed, the request is forwarded to the application server.
+
+The application server handles the business logic, runs the required code, and communicates with the database when information needs to be retrieved or stored. The response is then sent back through the web server and load balancer to the browser, where the webpage is displayed. 
+Q2: What is the difference between a client and a server? Give one real example of each.
+Client is any device that can be used to send request and receive it back. Example, your phone using WhatsApp to send a message 
+Whilst 
+A server is a device that provides services data or information to the client when they request them. Example, the WhatsApp server that stores and delivers message to the receiver.
