@@ -1,3 +1,4 @@
+PART 1
 Q1: In your own words, explain what happens when you type a website address like google.com and press Enter.
 When I type google.com into my browser and press Enter, the first step is a Domain Name System lookup, where DNS resolves the domain name into an IP address so the browser knows where to send the request.
 The request is then sent to a load balancer, which distributes traffic across different web servers using algorithms such as round-robin to improve performance and prevent overload.
@@ -19,10 +20,10 @@ A load balancer helps distributes traffic from incoming requests across multiple
 
 Q5: Explain the difference between a web server and an application server. Which one does a backend developer work with more, and why?
 A web server receives requests from the load balancer and handles them. If the request only needs static content, the web server sends the response directly. If additional functionality is needed, it forwards the request to the application server.
-
 An application server accesses and executes available codebases, processes the request, communicates with the database when needed, and sends the response back to the web server.
 
 A backend developer works more with the application server because they build and manage the application logic, APIs, and database operations that make the application function.
+
 Q6: Why does the client never communicate directly with the database? What are the benefits of having an application server in between?
 The client does not communicate directly with the database because it would expose the database to security risks and unauthorized access.
 The application server acts as a bridge between the client and the database. It processes requests, retrieves or updates data, and sends the correct response back to the client.
@@ -33,5 +34,4 @@ An MTN Momo account page is a dynamic website because it shows personalized info
 
 Q8: What is the main difference between frontend and backend development? If you were asked to build the login feature of a website, which side would handle checking your password against the database and why?
 The frontend development is the part of a website that users see and interact with, while the backend development handles the server, application logic, and database.
-
 The backend development checks the password against the database because it securely processes user data and protects important information.
