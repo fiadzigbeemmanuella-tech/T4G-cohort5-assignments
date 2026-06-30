@@ -10,3 +10,10 @@ Q2: What is the difference between a client and a server? Give one real example 
 Client is any device that can be used to send request and receive it back. Example, your phone using WhatsApp to send a message 
 Whilst 
 A server is a device that provides services data or information to the client when they request them. Example, the WhatsApp server that stores and delivers message to the receiver.
+
+Q3:What is DNS and why do we need it?
+ DNS (Domain Name System) converts website names like google.com into IP addresses that computers understand. We need it so users can easily access websites without remembering long IP addresses of every website we want to visit
+Q4: A firewall and a load balancer are both part of how the web works. What does each one do? How are they different?
+A firewall is a network security device that monitors and controls incoming and outgoing traffic to protect networks from unauthorized access and cyber threats.
+Whilst
+A load balancer helps distributes traffic from incoming requests across multiple servers to prevent overload and improve performance. The difference is that a firewall focuses on security, while a load balancer focuses on managing traffic and keeping services running smoothly.
