@@ -35,3 +35,35 @@ An MTN Momo account page is a dynamic website because it shows personalized info
 Q8: What is the main difference between frontend and backend development? If you were asked to build the login feature of a website, which side would handle checking your password against the database and why?
 The frontend development is the part of a website that users see and interact with, while the backend development handles the server, application logic, and database.
 The backend development checks the password against the database because it securely processes user data and protects important information.
+
+PART 2
+Client
+(Sends a request for a web page)
+-->
+DNS
+(Resolves the domain name into an IP address)
+-->
+Firewall
+(Checks the request for security and protection)
+-->
+Load Balancer
+(Directs the request to an available web server)
+-->
+Web Server
+(Receives the request and forwards dynamic requests)
+-->
+Application Server
+(Processes the request and communicates with the database)
+-->
+Database
+(Retrieves or stores data)
+-->
+Application Server
+(Processes the database result)
+-->
+Web Server
+(Sends the response)
+-->
+Client
+(Displays the web page)
+
