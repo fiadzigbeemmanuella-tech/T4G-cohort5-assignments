@@ -37,33 +37,33 @@ The frontend development is the part of a website that users see and interact wi
 The backend development checks the password against the database because it securely processes user data and protects important information.
 
 PART 2
-Client
-(Sends a request for a web page)
--->
-DNS
+               Client
+   (Sends a request for a web page)
+                -->
+                DNS
 (Resolves the domain name into an IP address)
--->
-Firewall
+                -->
+              Firewall
 (Checks the request for security and protection)
--->
-Load Balancer
+                -->
+             Load Balancer
 (Directs the request to an available web server)
--->
-Web Server
+                -->
+              Web Server
 (Receives the request and forwards dynamic requests)
--->
-Application Server
+                -->
+            Application Server
 (Processes the request and communicates with the database)
--->
-Database
+                -->
+              Database
 (Retrieves or stores data)
--->
-Application Server
+                -->
+           Application Server
 (Processes the database result)
--->
-Web Server
-(Sends the response)
--->
-Client
-(Displays the web page)
+                -->
+              Web Server
+         (Sends the response)
+                -->
+              Client
+       (Displays the web page)
 
