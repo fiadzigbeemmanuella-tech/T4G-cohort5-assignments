@@ -66,4 +66,15 @@ PART 2
                 -->
               Client
        (Displays the web page)
+PART 3(Reflection Questions)
+Q9: Why do backend developers need to know how to use the command line?
+Backend developers use the command line to navigate files, run programs, install packages, manage servers, use Git, and automate tasks. It is faster and gives access to tools that are not available through a graphical interface.
+
+Q10: What is the difference between an absolute path and a relative path? Give an example of each.
+Absolute path: The complete path to a file or folder, starting from the root directory and working its way down. It works no matter where you are in the file system.
+Example: /home/aurandra/ T4G-cohort5-assignments/answers.txt
+Relative path: A path that specifies the location of a file or folder relative to the current working directory. It starts from your current directory instead of the root directory.
+Example: T4G-cohort5-assignments/answers.txt (if you are already in your home directory)
+
+
 
