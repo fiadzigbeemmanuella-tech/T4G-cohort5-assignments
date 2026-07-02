@@ -66,6 +66,7 @@ PART 2
                 -->
               Client
        (Displays the web page)
+
 PART 3(Reflection Questions)
 Q9: Why do backend developers need to know how to use the command line?
 Backend developers use the command line to navigate files, run programs, install packages, manage servers, use Git, and automate tasks. It is faster and gives access to tools that are not available through a graphical interface.
@@ -77,11 +78,9 @@ Relative path: A path that specifies the location of a file or folder relative t
 Example: T4G-cohort5-assignments/answers.txt (if you are already in your home directory)
 
 Q11: If a friend says "I can just use File Explorer / Finder to manage my files, why learn CLI commands?", how would you respond?
-
 File Explorer or Finder is useful for basic file management, but the command line is faster for many tasks, especially when working with many files. It also allows you to use developer tools, automate tasks, manage remote servers, and perform operations that are difficult or impossible with a graphical interface.
 
 Q12: What does the ~ symbol represent in the terminal? What does $ mean?
-
 ~ (tilde): Represents the current user's home directory.
 $: The shell prompt that indicates the terminal is ready to accept a command from a regular user.
 
