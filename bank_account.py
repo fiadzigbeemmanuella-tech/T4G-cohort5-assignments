@@ -32,33 +32,33 @@ class BankAccount:
 
 
 # Demonstration
+if __name__ == "__main__":
+    print("Transactions:")
 
-print("Transactions:")
+    # Creating two BankAccount instances
+    account1 = BankAccount("Yvonne Devor", 1000)
+    account2 = BankAccount("Rosebud Sedem", 6000)
 
-# Creating two BankAccount instances
-account1 = BankAccount("Yvonne Devor", 1000)
-account2 = BankAccount("Rosebud Sedem", 6000)
+    # Successful transactions
+    account1.deposit(500)
+    account1.withdraw(400)
+    account2.withdraw(5000)
 
-# Successful transactions
-account1.deposit(500)
-account1.withdraw(400)
-account2.withdraw(5000)
+    print("\nAccount Details:")
+    print(account1)
+    print(account2)
 
-print("\nAccount Details:")
-print(account1)
-print(account2)
+    # Failed transactions
+    print("\nFailed Transactions:")
 
-# Failed transactions
-print("\nFailed Transactions:")
+    # Withdrawal above daily limit
+    account2.withdraw(6000)
 
-# Withdrawal above daily limit
-account2.withdraw(6000)
+    # Withdrawal more than available balance
+    account1.withdraw(2000)
 
-# Withdrawal more than available balance
-account1.withdraw(2000)
+    # Negative withdrawal
+    account1.withdraw(-200)
 
-# Negative withdrawal
-account1.withdraw(-200)
-
-# Zero withdrawal
-account1.withdraw(0)
+    # Zero withdrawal
+    account1.withdraw(0)
